@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+}
+
+body {
+    background-color: #222; /* Cambia este valor al color gris oscuro o casi negro que desees */
+}
+

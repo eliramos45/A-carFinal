@@ -1,0 +1,27 @@
+
+body{
+    background-color: #000;
+    overflow: hidden
+}
+
+.fondo{
+    opacity: 50%;
+    size: 100%;
+    position: relative;
+}
+
+.card{
+    text-align: center;
+    width: 25rem;
+    height: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    opacity: 85%;
+
+}
+
+.card-body{
+    margin-bottom: 40px;
+}

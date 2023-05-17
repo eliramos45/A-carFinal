@@ -1,0 +1,36 @@
+#Inicio > div, footer {
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.container {
+    width: fit-content;
+    margin: 0;
+}
+
+
+nav > ul {
+    list-style: none !important;
+}
+
+.navbar1 {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.map-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
